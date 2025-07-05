@@ -1,0 +1,68 @@
+mogaaaa
+asdfasldkjf
+are ja
+sadfa
+sdf
+2025-07-01 14:49:25.311 |  |  | [WARN] | LoggingRecurringJob2 running! Time: "2025-07-01T14:49:25.3115603+03:30"
+2025-07-01 14:49:27.758 |  |  | [WARN] | Executed Scope Service Job
+2025-07-01 14:49:27.758 |  |  | [WARN] | hiiiiii
+2025-07-01 14:49:27.758 |  |  | [WARN] | hiiiiii
+asdfasdf
+asdf
+as
+df
+as
+df
+2025-07-01 14:49:27.758 |  |  | [WARN] | hiiiiii
+2025-07-01 14:48:28.543 |  |  | [INFO] | Starting Payment Inquiry Job...
+2025-07-01 14:48:28.549 |  |  | [INFO] | Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [b].[Id], [b].[AccountId], [b].[Amount], [b].[BankNetwork], [b].[Created], [b].[CreatedBy], [b].[CurrentState], [b].[LastModified], [b].[LastModifiedBy], [b].[ManuallyCreated], [b].[recreateCount], [a].[Id], [a].[AccountKind], [a].[AccountNumber], [a].[AccountType], [a].[Balance], [a].[CardNumber], [a].[CompanyFastFee], [a].[CompanyFeeLimit], [a].[CompanyId], [a].[CompanyMonthBeginDay], [a].[CompanyMonthCredit], [a].[CompanyMonthEndDay], [a].[CompanyMonthSettlementDay], [a].[CompanyNormalFee], [a].[CompanyTransactionLimit], [a].[CompanyWideMonthlyWithdrawalLimit], [a].[Created], [a].[CreatedBy], [a].[EmployeeId], [a].[EmployeesDailyWithdrawalLimit], [a].[FeeShare], [a].[IbanNumber], [a].[LastModified], [a].[LastModifiedBy], [a].[Status], [a].[Title]
+FROM [fin].[Bids] AS [b]
+INNER JOIN [fin].[Accounts] AS [a] ON [b].[AccountId] = [a].[Id]
+WHERE [b].[Created] < CAST(DATEADD(hour, CAST(-1.0E0 AS int), GETDATE()) AS DateTimeOffset) AND [b].[CurrentState] = 1
+2025-07-01 14:48:28.655 |  |  | [INFO] | Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [b].[Id], [b].[AccountId], [b].[Amount], [b].[BankNetwork], [b].[Created], [b].[CreatedBy], [b].[CurrentState], [b].[LastModified], [b].[LastModifiedBy], [b].[ManuallyCreated], [b].[recreateCount], [a].[Id], [a].[AccountKind], [a].[AccountNumber], [a].[AccountType], [a].[Balance], [a].[CardNumber], [a].[CompanyFastFee], [a].[CompanyFeeLimit], [a].[CompanyId], [a].[CompanyMonthBeginDay], [a].[CompanyMonthCredit], [a].[CompanyMonthEndDay], [a].[CompanyMonthSettlementDay], [a].[CompanyNormalFee], [a].[CompanyTransactionLimit], [a].[CompanyWideMonthlyWithdrawalLimit], [a].[Created], [a].[CreatedBy], [a].[EmployeeId], [a].[EmployeesDailyWithdrawalLimit], [a].[FeeShare], [a].[IbanNumber], [a].[LastModified], [a].[LastModifiedBy], [a].[Status], [a].[Title]
+FROM [fin].[Bids] AS [b]
+INNER JOIN [fin].[Accounts] AS [a] ON [b].[AccountId] = [a].[Id]
+WHERE [b].[Created] < CAST(DATEADD(hour, CAST(-1.0E0 AS int), GETDATE()) AS DateTimeOffset) AND [b].[CurrentState] = 1
+2025-07-01 14:48:44.201 |  |  | [INFO] | Starting Payment Inquiry Job...
+2025-07-01 14:48:44.261 |  |  | [INFO] | Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [b].[Id], [b].[AccountId], [b].[Amount], [b].[BankNetwork], [b].[Created], [b].[CreatedBy], [b].[CurrentState], [b].[LastModified], [b].[LastModifiedBy], [b].[ManuallyCreated], [b].[recreateCount], [a].[Id], [a].[AccountKind], [a].[AccountNumber], [a].[AccountType], [a].[Balance], [a].[CardNumber], [a].[CompanyFastFee], [a].[CompanyFeeLimit], [a].[CompanyId], [a].[CompanyMonthBeginDay], [a].[CompanyMonthCredit], [a].[CompanyMonthEndDay], [a].[CompanyMonthSettlementDay], [a].[CompanyNormalFee], [a].[CompanyTransactionLimit], [a].[CompanyWideMonthlyWithdrawalLimit], [a].[Created], [a].[CreatedBy], [a].[EmployeeId], [a].[EmployeesDailyWithdrawalLimit], [a].[FeeShare], [a].[IbanNumber], [a].[LastModified], [a].[LastModifiedBy], [a].[Status], [a].[Title]
+FROM [fin].[Bids] AS [b]
+INNER JOIN [fin].[Accounts] AS [a] ON [b].[AccountId] = [a].[Id]
+WHERE [b].[Created] < CAST(DATEADD(hour, CAST(-1.0E0 AS int), GETDATE()) AS DateTimeOffset) AND [b].[CurrentState] = 1
+2025-07-01 14:48:44.268 |  |  | [INFO] | Starting Payment Inquiry Job...
+2025-07-01 14:48:44.349 |  |  | [INFO] | Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [b].[Id], [b].[AccountId], [b].[Amount], [b].[BankNetwork], [b].[Created], [b].[CreatedBy], [b].[CurrentState], [b].[LastModified], [b].[LastModifiedBy], [b].[ManuallyCreated], [b].[recreateCount], [a].[Id], [a].[AccountKind], [a].[AccountNumber], [a].[AccountType], [a].[Balance], [a].[CardNumber], [a].[CompanyFastFee], [a].[CompanyFeeLimit], [a].[CompanyId], [a].[CompanyMonthBeginDay], [a].[CompanyMonthCredit], [a].[CompanyMonthEndDay], [a].[CompanyMonthSettlementDay], [a].[CompanyNormalFee], [a].[CompanyTransactionLimit], [a].[CompanyWideMonthlyWithdrawalLimit], [a].[Created], [a].[CreatedBy], [a].[EmployeeId], [a].[EmployeesDailyWithdrawalLimit], [a].[FeeShare], [a].[IbanNumber], [a].[LastModified], [a].[LastModifiedBy], [a].[Status], [a].[Title]
+FROM [fin].[Bids] AS [b]
+INNER JOIN [fin].[Accounts] AS [a] ON [b].[AccountId] = [a].[Id]
+WHERE [b].[Created] < CAST(DATEADD(hour, CAST(-1.0E0 AS int), GETDATE()) AS DateTimeOffset) AND [b].[CurrentState] = 1
+2025-07-01 14:48:58.609 |  |  | [EROR] | An error occurred during Payment Inquiry Job execution.
+MassTransit.RequestTimeoutException: Timeout waiting for response, RequestId: d0780000-9a3c-0005-30c2-08ddb8910129
+   at MassTransit.Clients.ResponseHandlerConnectHandle`1.GetTask() in /_/src/MassTransit/Clients/ResponseHandlerConnectHandle.cs:line 58
+   at MassTransit.Clients.RequestClient`1.GetResponseInternal[T](SendRequestCallback request, CancellationToken cancellationToken, RequestTimeout timeout, RequestPipeConfiguratorCallback`1 callback) in /_/src/MassTransit/Clients/RequestClient.cs:line 195
+   at Hesabo.Application.Bids.EventHandlers.BidInquirySyncedEventHandler.Handle(BidInquirySyncedEvent notification, CancellationToken cancellationToken) in C:\Users\Moga\source\repos\hesabo plus\fin\src\Application\Bids\EventHandlers\BidInquirySyncedEventHandler.cs:line 41
+2025-07-01 14:48:58.722 |  |  | [EROR] | An error occurred during Payment Inquiry Job execution.
+MassTransit.RequestTimeoutException: Timeout waiting for response, RequestId: d0780000-9a3c-0005-735a-08ddb8910138
+   at MassTransit.Clients.ResponseHandlerConnectHandle`1.GetTask() in /_/src/MassTransit/Clients/ResponseHandlerConnectHandle.cs:line 58
+   at MassTransit.Clients.RequestClient`1.GetResponseInternal[T](SendRequestCallback request, CancellationToken cancellationToken, RequestTimeout timeout, RequestPipeConfiguratorCallback`1 callback) in /_/src/MassTransit/Clients/RequestClient.cs:line 195
+   at Hesabo.Application.Bids.EventHandlers.BidInquirySyncedEventHandler.Handle(BidInquirySyncedEvent notification, CancellationToken cancellationToken) in C:\Users\Moga\source\repos\hesabo plus\fin\src\Application\Bids\EventHandlers\BidInquirySyncedEventHandler.cs:line 41
+2025-07-01 14:49:14.318 |  |  | [EROR] | An error occurred during Payment Inquiry Job execution.
+MassTransit.RequestTimeoutException: Timeout waiting for response, RequestId: d0780000-9a3c-0005-815f-08ddb8910a84
+   at MassTransit.Clients.ResponseHandlerConnectHandle`1.GetTask() in /_/src/MassTransit/Clients/ResponseHandlerConnectHandle.cs:line 58
+   at MassTransit.Clients.RequestClient`1.GetResponseInternal[T](SendRequestCallback request, CancellationToken cancellationToken, RequestTimeout timeout, RequestPipeConfiguratorCallback`1 callback) in /_/src/MassTransit/Clients/RequestClient.cs:line 195
+   at Hesabo.Application.Bids.EventHandlers.BidInquirySyncedEventHandler.Handle(BidInquirySyncedEvent notification, CancellationToken cancellationToken) in C:\Users\Moga\source\repos\hesabo plus\fin\src\Application\Bids\EventHandlers\BidInquirySyncedEventHandler.cs:line 41
+2025-07-01 14:49:14.438 |  |  | [EROR] | An error occurred during Payment Inquiry Job execution.
+MassTransit.RequestTimeoutException: Timeout waiting for response, RequestId: d0780000-9a3c-0005-552e-08ddb8910a92
+   at MassTransit.Clients.ResponseHandlerConnectHandle`1.GetTask() in /_/src/MassTransit/Clients/ResponseHandlerConnectHandle.cs:line 58
+   at MassTransit.Clients.RequestClient`1.GetResponseInternal[T](SendRequestCallback request, CancellationToken cancellationToken, RequestTimeout timeout, RequestPipeConfiguratorCallback`1 callback) in /_/src/MassTransit/Clients/RequestClient.cs:line 195
+   at Hesabo.Application.Bids.EventHandlers.BidInquirySyncedEventHandler.Handle(BidInquirySyncedEvent notification, CancellationToken cancellationToken) in C:\Users\Moga\source\repos\hesabo plus\fin\src\Application\Bids\EventHandlers\BidInquirySyncedEventHandler.cs:line 41
+2025-07-01 14:49:24.834 |  |  | [WARN] | LoggingRecurringJob running! Time: "2025-07-01T14:49:24.8347812+03:30"
+2025-07-01 14:49:25.311 |  |  | [WARN] | LoggingRecurringJob2 running! Time: "2025-07-01T14:49:25.3115603+03:30"
+2025-07-01 14:49:27.758 |  |  | [WARN] | Executed Scope Service Job
+2025-07-01 14:50:14.438 |  |  | [EROR] | An error occurred during Payment Inquiry Job execution.
+MassTransit.RequestTimeoutException: Timeout waiting for response, RequestId: d0780000-9a3c-0005-552e-08ddb8910a92
+   at MassTransit.Clients.ResponseHandlerConnectHandle`1.GetTask() in /_/src/MassTransit/Clients/ResponseHandlerConnectHandle.cs:line 58
+   at MassTransit.Clients.RequestClient`1.GetResponseInternal[T](SendRequestCallback request, CancellationToken cancellationToken, RequestTimeout timeout, RequestPipeConfiguratorCallback`1 callback) in /_/src/MassTransit/Clients/RequestClient.cs:line 195
+   at Hesabo.Application.Bids.EventHandlers.BidInquirySyncedEventHandler.Handle(BidInquirySyncedEvent notification, CancellationToken cancellationToken) in C:\Users\Moga\source\repos\hesabo plus\fin\src\Application\Bids\EventHandlers\BidInquirySyncedEventHandler.cs:line 41
+

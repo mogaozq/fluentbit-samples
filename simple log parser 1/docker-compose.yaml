@@ -1,0 +1,15 @@
+version: '3'
+services:
+  fluent-bit:
+    image: fluent/fluent-bit:latest
+    volumes:
+      - ./fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+      - ./parsers.conf:/fluent-bit/etc/parsers.conf
+      - "C:/Users/Moga/source/repos/hesabo plus/pay/src/Api/logs:/logs"  # Mapping Windows logs directory
+    networks:
+      - esnet
+    command: /fluent-bit/bin/fluent-bit -c /fluent-bit/etc/fluent-bit.conf
+
+networks:
+  esnet:
+    driver: bridge
